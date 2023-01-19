@@ -1,0 +1,43 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading {
+    font-size: 23px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.headingDiv {
+    color: #000;
+    background-color: #fff;
+    float: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.headingDiv2 {
+    font-size: 18px;
+}
+
+.resultTag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.resultTag span{
+    white-space: pre-line;
+}
+
+canvas {
+    border: 5px solid #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 0;
+}
